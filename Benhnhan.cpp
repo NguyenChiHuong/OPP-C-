@@ -112,7 +112,7 @@ int main(){
 	int n;
 	PT[0] = new INPATIENT;
 	PT[1] = new OUTPATIENT;
-	for(int i=0;i<n;i++){
+	for(int i=0;i<=1;i++){
 		cout<<"PATIENT "<<i+1<<endl;
 		PT[i]->input();
 	}
